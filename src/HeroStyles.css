@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    width: 100%;
+    height:100%;
+    /* position:-ms-page; */
+}
+.hero-lg{
+    width:100%;
+    height: 70vh;
+    position: relative;
+}
+.hero-texta{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+}
+.hero-texta h1{
+    padding:4rem !important;
+    font-size: 3rem;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    font-style: oblique;
+}
+.hero-sm{
+    width:100%;
+    height:200vh;
+    position: relative; 
+}
+.hero-textu{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+}
+.hero-textu h1{
+    padding:4rem !important;
+    font-size: 3rem;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    font-style: oblique;
+}
+.hero-mid{
+    width:100%;
+    height:70vh;
+    position: relative;
+}
+.hero-texti{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+}
+.hero-texti h1{
+    padding:4rem !important;
+    font-size: 3rem;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    font-style: oblique;
+}
+img{
+    /* width:100vw; */
+    height: 800px;
+    object-fit: cover;
+}
+.nasty{
+    width: 200px;
+    margin-right:0 ;
+    margin-left: 0;
+    /* background-color: black; */
+}
+
+.hero-text{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    width:100%;
+}
+.hero-text h1{
+   font-family:'Times New Roman', Times, serif;
+   color:rgb(228, 230, 213);
+   text-align: center;
+}
+
+
+.hero-text h3{
+
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(228, 230, 213);
+   text-align: center;
+   font-size: 48px;
+   
+   
+}
+
+@media screen and (max-width:555px) {
+    .hero-text h1{
+        padding: 10px 20px;
+    }
+    .hero-text p{
+        font-size: 1.1rem;
+        padding:0 0 2rem 0;
+
+    }
+    .hero-text .show{
+        padding:0.6rem 1.1rem;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+    
+}
+@media screen and (max-width:855px) {
+    .hero-text h1{
+        padding: 10px 20px;
+    }
+    .hero-text p{
+        font-size: 1.1rem;
+        padding:0 0 2rem 0;
+
+    }
+    .hero-text .show{
+        padding:0.6rem 1.1rem;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+    
+}
+
+.amin{
+    background-color: black;
+}

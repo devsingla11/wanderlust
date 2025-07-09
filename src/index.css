@@ -1,0 +1,26 @@
+.show{
+    text-decoration: none;
+    background:whitesmoke;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black;
+    display: flex;
+    justify-content: center;
+  } 
+  @media screen and (max-width:555px) {
+    .show{
+        padding:0.6rem 1.1rem;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:800px) {
+    .show{
+        padding:0.6rem 1.1rem;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+}
